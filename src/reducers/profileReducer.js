@@ -1,10 +1,10 @@
 import { RECEIVE_FIRST_NAME, RECEIVE_LAST_NAME, RECEIVE_BIO, RECEIVE_LOCATION } from '../actions/profileActions';
 
 const defaultState = {
-  firstName: '',
-  lastName: '',
-  bio: '',
-  location: '',
+  firstName: 'First Name',
+  lastName: 'Last Name',
+  bio: 'Bio',
+  location: 'Location',
 };
 
 const ProfileReducer = (state = defaultState, action) => {

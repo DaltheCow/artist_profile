@@ -7,5 +7,5 @@ import configureStore from './store/store';
 
 const store = configureStore();
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App store={store} />, document.getElementById('root'));
 registerServiceWorker();

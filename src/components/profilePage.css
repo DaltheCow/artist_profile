@@ -1,0 +1,87 @@
+.pf-page {
+  height: 100%;
+}
+
+.pf-img-container {
+  width: 200px;
+  height: 100%;
+  margin-bottom: 16px;
+}
+
+.pf-img-container img {
+  width: 100%;
+}
+
+.pf-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 0 0;
+}
+
+.info-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field-text {
+  color: rgb(220,220,220);
+}
+
+.name {
+  display: flex;
+}
+
+.info-field {
+  display: flex;
+  max-width: 250px;
+  margin-bottom: 15px;
+}
+
+.name .info-field:last-child {
+  margin-left: 12px;
+}
+
+.name .field-text {
+  font-size: 25px;
+}
+
+.input-text input {
+  background: none;
+  border: none;
+  color: rgb(220,220,220);
+  width: 180px;
+}
+
+.bio {
+  text-align: center;
+}
+
+.name .input-text input {
+  font-size: 25px;
+  height: 26px;
+}
+
+.field-text:hover {
+  cursor: pointer;
+}
+
+.field-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 40px;
+  height: 20px;
+  padding: 3px 6px;
+  border-radius: 13px;
+  background: rgb(12, 115, 18);
+  color: rgb(220,220,220);
+  margin-left: 8px;
+}
+
+.field-btn:hover {
+  background: rgb(14, 126, 18); /*green*/
+  cursor: pointer;
+}
